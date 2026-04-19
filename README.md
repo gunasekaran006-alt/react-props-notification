@@ -3,7 +3,7 @@
 A highly customizable and responsive Notification Alert system built using **React**, **Tailwind CSS**, and **Lucide Icons**. This project demonstrates the effective use of **React Props** and **Conditional Rendering** to display different types of system and user alerts.
 
 <p align="center">
-  <img src="./demo.jpg" alt="Notification Demo" width="600">
+  <img src="/src/assets/demo.jpg" alt="Notification Demo" width="600">
 </p>
 
 ## 🚀 Key Features

@@ -1,16 +1,33 @@
-# React + Vite
+# 🔔 React Props Notification System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A highly customizable and responsive Notification Alert system built using **React**, **Tailwind CSS**, and **Lucide Icons**. This project demonstrates the effective use of **React Props** and **Conditional Rendering** to display different types of system and user alerts.
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="./demo.jpg" alt="Notification Demo" width="600">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Key Features
 
-## React Compiler
+*   **Type-Based Themes:** Supports `success`, `error`, `warning`, `info`, `loading`, and `urgent` types.
+*   **Dual-Column Layout:** Organizes notifications into "Orders & Delivery" and "Privacy & Rewards" for better UI/UX.
+*   **Dynamic Styling:** Uses Tailwind CSS for modern Glassmorphism effects and smooth hover transitions.
+*   **Animated Components:** Includes spin animations for loaders and pulse effects for urgent alerts.
+*   **Fully Responsive:** Optimized for both mobile and desktop screens.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+*   **Framework:** React (Vite)
+*   **Styling:** Tailwind CSS
+*   **Icons:** Lucide-React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Component Logic
+The `Notification` component accepts the following props:
+- `type`: Defines the color theme and icon.
+- `title`: The heading of the alert.
+- `message`: Detailed description of the notification.
+
+## 🏁 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
